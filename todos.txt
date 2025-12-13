@@ -4,3 +4,6 @@ laundry
 shopping
 ironing
 coding
+eat
+drink
+code
