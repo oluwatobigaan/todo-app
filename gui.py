@@ -37,5 +37,4 @@ while True:
             window["todo"].update(value=values["todos"][0])
         case sg.WIN_CLOSED:
             break
-print("Future Billionaire")
 window.close()
