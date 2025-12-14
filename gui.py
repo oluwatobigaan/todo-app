@@ -26,7 +26,7 @@ while True:
 
         case "Edit":
             todo_to_edit = values['todos'][0]
-            new_todo = values['todo'].capitalize()
+            new_todo = values['todo'].capitalize() + "\n"
             todos = functions.get_todos()
             index = todos.index(todo_to_edit)
             todos[index] = new_todo
@@ -37,5 +37,5 @@ while True:
             window["todo"].update(value=values["todos"][0])
         case sg.WIN_CLOSED:
             break
-
+print("Future Billionaire")
 window.close()

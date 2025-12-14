@@ -1,6 +1,6 @@
 Eat
 Drink
-Shower
+Think
 Eat more
 Drink more
-Sleep
+SleepShave and shower
