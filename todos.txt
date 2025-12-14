@@ -1,9 +1,6 @@
-eat
-drink
-laundry
-shopping
-ironing
-coding
-eat
-drink
-code
+Eat
+Drink
+Shower
+Eat more
+Drink more
+Sleep
