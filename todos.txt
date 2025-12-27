@@ -1,7 +1,5 @@
 Eat
 Drink
-Shave and shower
-Eat eba
-Sing
-Eat
-Sleep
+Shave saturday
+Eat egusi
+Eat turkey
