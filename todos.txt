@@ -1,8 +1,5 @@
 Eat
 Drink
-Think
-Eat more
-Drink more
 Shave and shower
 Eat eba
 Sleep
