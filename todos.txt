@@ -2,4 +2,6 @@ Eat
 Drink
 Shave and shower
 Eat eba
+Sing
+Eat
 Sleep
