@@ -22,11 +22,13 @@ window = sg.Window("My To-Do App",
                            [exit_button]],
                    font=("Helvetica", 20))
 while True:
-    event, values = window.read(timeout=200)
+    event, values = window.read(200)
     window["clock"].update(value=time.strftime("%b %d, %Y %I:%M:%S%p"))
+    #CLOCK PREVENTS sg.WIN_CLOSED: from working properly, so take note
     print(event)
     print(values)
     match event:
+
         case "Add":
             todos = functions.get_todos()
             new_todo = values['todo'].capitalize() + "\n"
@@ -57,10 +59,12 @@ while True:
             except IndexError:
                 sg.popup("Please select an item first.", font=("Helvetica", 20))
 
-        case "Exit":
-            break
         case "todos":
             window["todo"].update(value=values["todos"][0])
+
+        case "Exit":
+            break
         case sg.WIN_CLOSED:
             break
+
 window.close()

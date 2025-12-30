@@ -1,5 +1,6 @@
 Eat
 Drink
-Shave saturday
 Eat egusi
-Eat turkey
+More coding
+Eat
+Sleep
