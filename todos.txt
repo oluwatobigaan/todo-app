@@ -1,9 +1,4 @@
 Code
-Eat
-Drink
-Shower
-Brush teeth
-Sleep
-Wake
 Eat eba
 Eat egusi
+Sleep
